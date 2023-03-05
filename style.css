@@ -36,6 +36,8 @@ body{
     border: none;
     outline: none;
     border-bottom: 2px solid #202030;
+    position: relative;
+    left: 50px;
 }
 .search-container button{
     font-size: 1em;
@@ -43,6 +45,8 @@ body{
     border: none;
     font-weight: 600;
     border-radius: 0.3em;
+    position: relative;
+    left: 49px;
 }
 
 img{
@@ -75,7 +79,7 @@ img{
 #show-recipe{
     font-size: 1em;
     position: relative;
-    left: 75%;
+    left: 35%;
     padding: 0.9em 0.6em;
     background-color: #0E8388;
     border: none;
@@ -136,3 +140,7 @@ h3{
     }
 }
 
+h1{
+    position: relative;
+    left: 20%;
+}
